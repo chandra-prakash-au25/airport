@@ -1,0 +1,140 @@
+.form{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images.jpg');
+    object-fit: cover;
+}
+.heading{
+    display: flex;
+    align-items: center;justify-content: center;
+    color: white;
+}
+
+.rows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.row{
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+
+}
+input{
+    height: 20px;
+    width: 230px;
+}
+.content{
+    width: 300px;
+    background-color: rgb(13, 81, 133);
+    padding: 20px;
+    border-radius: 5px;
+}
+.message{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(rgb(81, 159, 237),rgb(84, 135, 172));
+}
+.logo{
+    height:65px;
+    width:65px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 2%;
+}
+.nav-head{
+    margin-right: 2%;
+}
+.nav{
+    height: 70px;
+    background-color: rgb(54, 54, 60);
+    display: flex;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.add-btn{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(73, 129, 172);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 5px;    
+}
+.btn{
+    background-color:rgb(73, 129, 172);
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./images.jpg');
+    object-fit: cover;
+    overflow-y: scroll
+
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-radius: 5px;
+
+    }
+  }
+  .row1{
+    padding:10%;
+  }
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    color: rgb(49, 15, 15);
+  }
